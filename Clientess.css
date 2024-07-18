@@ -1,0 +1,59 @@
+dataroot{
+    display: table;
+    border-spacing: 5px;
+    border: rgb(255, 0, 0) 5px solid;
+    background-color: rgb(48, 63, 63);
+    border-radius: 20px;
+    margin-left: 30px;
+}
+Cabecera{
+    border: 5px red solid;
+    border-radius: 20px;
+}
+Cabecera,Empresa {
+    display: table;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 5px  red solid;
+    font-size: 25px;
+}
+Cabecera,País {
+    display: table;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 5px  red solid;
+    font-size: 25px;
+}
+Cabecera,Industria {
+    display: table;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 5px  red solid;
+    font-size: 25px;
+}
+Cabecera,Empleados {
+    display: table;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 5px  red solid;
+    font-size: 25px;
+}
+Cabecera,Ingresos {
+    display: table;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    border: 5px  red solid;
+    font-size: 25px;
+}
+Cabecera,Clientes {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    display: block;
+    border: 5px  red solid;
+    font-size: 25px;
+    display: table-cell;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 30px;
+}

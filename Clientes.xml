@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='Clientess.css'?>
+<dataroot>
+<Clientes>
+<Cabecera>EMPRESA</Cabecera>
+<Empresa>Noche's</Empresa>
+<Empresa>Game the horror</Empresa>
+<Empresa>Diverción de noche</Empresa>
+<Empresa>Sustos</Empresa>
+<Empresa>Terror</Empresa>
+<Empresa>Casa de Juegos</Empresa>
+<Empresa>Marionetas</Empresa>
+</Clientes>
+<Clientes>
+<Cabecera>PAIS</Cabecera>
+<País>United Kingdom</País>
+<País>United Kingdom</País>
+<País>Austria</País>
+<País>United States</País>
+<País>Perú</País>
+<País>United States</País>
+<País>Hong Kong</País>
+</Clientes>
+<Clientes>
+<Cabecera>INDUSTRIA</Cabecera>
+<Industria>Rockabye</Industria>
+<Industria>Lizabell</Industria>
+<Industria>Katherine</Industria>
+<Industria>Debbie</Industria>
+<Industria>Syndi</Industria>
+<Industria>Crinkle</Industria>
+<Industria>Bili-linda</Industria>
+</Clientes>
+<Clientes>
+<Cabecera>EMPLEADOS</Cabecera>
+<Empleados>210</Empleados>
+<Empleados>179</Empleados>
+<Empleados>9</Empleados>
+<Empleados>210</Empleados>
+<Empleados>17</Empleados>
+<Empleados>610</Empleados>
+<Empleados>500</Empleados>
+</Clientes>
+<Clientes>
+<Cabecera>INGRESOS</Cabecera>
+<Ingresos>31</Ingresos>
+<Ingresos>46</Ingresos>
+<Ingresos>12</Ingresos>
+<Ingresos>48</Ingresos>
+<Ingresos>17</Ingresos>
+<Ingresos>28</Ingresos>
+<Ingresos>32</Ingresos>
+</Clientes>
+</dataroot>

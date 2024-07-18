@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ff0000;
+        }
+
+        form {
+            background: #51c551;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 53, 2, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 3px solid #0e3d7a;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #57dac4;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #cecc61;
+        }
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        
+        <button type="submit">Enviar</button>
+        <button type="submit">Limpiar</button>
+    </form>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            // Obtener los valores de los campos
+            var name = document.getElementById('name').value.trim();
+            var email = document.getElementById('email').value.trim();
+
+            // Validar los campos
+            if (name === '' || email === '') {
+                // Construir el mensaje de alerta
+                var message = 'Por favor, completa los siguientes campos obligatorios:\n';
+                if (name === '') {
+                    message += '- Nombre\n';
+                }
+                if (email === '') {
+                    message += '- Email\n';
+                }
+
+                // Mostrar alerta con el mensaje construido
+                alert(message);
+
+                // Prevenir el envío del formulario
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
